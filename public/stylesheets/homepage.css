@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+    color: white;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(34, 34, 34);
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px 30px ;
+    background-color: antiquewhite;
+    gap: 20px;
+    color: black;
+    overflow-x: auto;
+}
+
+.note{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    background-color: rgb(82, 82, 82);
+    flex-direction: column;
+    padding: 20px 10px;
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 10px;
+    gap: 20px;
+    height: 100%;
+    overflow-y: auto;
+    color: white;
+}
+
+#title{
+    font-size: 1.5rem;
+    font-weight: 600; 
+    color: white;
+}
+
+a{
+    border: none;
+    border-radius: 5px ;
+    background-color:#216fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.developer{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+@media (max-width:"500px") {
+    body{
+        background-color: red;
+    }
+}
